@@ -37,7 +37,7 @@
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your Postgres SQL DataBase URI, Get one from ElephantSQL.com",
          "required": false,
-         "value": ""
+         "value": "postgres://chqqayka:3ePoygQgNuRBTIgOZs_8DvbHOWU9Ejwj@isilo.db.elephantsql.com/chqqayka"
       },      
       "OWNER_ID": {
          "description": "Leave it dont change.",
