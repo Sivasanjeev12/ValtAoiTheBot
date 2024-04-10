@@ -9,13 +9,13 @@
          "manager",
          "Valt"
       ],   
-   "repository": "https://github.com/ValtAoiTheBot/ValtAoiTheBot",
+   "repository": "https://github.com/sivasanjeev12/ValtAoiTheBot",
    "addons": [
       {
          "options": {
-            "version": "12"
+            "version": "15"
          },
-         "plan": "heroku-postgresql"
+         "plan": "heroku-postgresql:mini"
       }
    ],
    "env": {
@@ -42,7 +42,7 @@
       "OWNER_ID": {
          "description": "Leave it dont change.",
          "required": true,
-         "value": "1912630709"
+         "value": "6679467894"
       },
       "BOT_ID": {
          "description": "Your bot ID.. Use any other bot to get it.",
@@ -64,7 +64,7 @@
       "SUPPORT_CHAT": {
          "description": "Put your dupport group username without @",
          "required": true,
-         "value": "SupportGroupName"
+         "value": "aigar_supportchat"
       },
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -89,7 +89,7 @@
       "DEV_USERS": {
          "description": "Dont change this leave it",
          "required": false,
-         "value": "1912630709"
+         "value": "6679467894"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
@@ -103,22 +103,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo usersand dont change this id ",
          "required": false,
-         "value": "1912630709"
+         "value": "6679467894"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who can use Gban From Your Bot and Dont change this id",
          "required": false,
-         "value": "1912630709"
+         "value": "6679467894"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who can not be banned by your Bot and dont change this id",
          "required": false,
-         "value": "1912630709"
+         "value": "6679467894"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "6679467894"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -137,7 +137,7 @@
       "URL": {
          "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
          "required": false,
-         "value": "https://example.herokuapp.com/"
+         "value": "https://aigarakabane.herokuapp.com/"
       },
       "NO_LOAD": {
          "description": "List of Modules that are not be Loaded",
@@ -156,7 +156,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "t.me/Rohith_no_1"
+         "value": "t.me/aigar_supportchat"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
